@@ -12,7 +12,7 @@ source:
 
 
 build:
-  number: 0
+  number: 1
   script: |
     set MUMPS_INC=%PREFIX%\Library\include                                                                        # [win]
     set MUMPS_LIB=%PREFIX%\Library\lib                                                                            # [win]
