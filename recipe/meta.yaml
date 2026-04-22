@@ -70,7 +70,6 @@ test:
   commands:
     - pytest tests/
 
-
 about:
   home: https://github.com/imadki/mumps4py
   license: MIT
