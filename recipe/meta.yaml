@@ -1,5 +1,5 @@
 {% set name = "mumps4py" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/imadki/mumps4py/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 634dd52a9942e88a430d6c8b519cbf6e50db77dd5f1be1cb04e5ab3f3e9da8ba
+  sha256: b6dfccecbd3802fe80ae07266b225667bc55af2a12e39643c028d5b7b343b1a1
 
 
 build:
-  number: 2
+  number: 0
   script: |
     set MUMPS_INC=%PREFIX%\Library\include                                                                        # [win]
     set MUMPS_LIB=%PREFIX%\Library\lib                                                                            # [win]
